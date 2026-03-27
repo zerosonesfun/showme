@@ -1,0 +1,5 @@
+{
+  "tutorials": [
+    { "name": "My tutorial", "file": "my-tutorial.json" }
+  ]
+}
