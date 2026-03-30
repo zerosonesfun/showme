@@ -1,82 +1,159 @@
 {
-  "name": "My Tutorial",
-  "startUrl": "https://www.google.com/",
+  "id": "031625f2-ee62-4442-ad47-303149924bdc",
+  "name": "Example Tutorial",
+  "startUrl": "https://pipeline.phenompeople.com/dashboard/recruiter-dashboard",
   "steps": [
     {
       "action": "click",
-      "elementText": "Search",
+      "elementText": "",
+      "extraWaitMs": 2000,
       "id": 1,
-      "instruction": "Click and type cat",
+      "instruction": "Welcome to Phenom. Click next.",
       "passThrough": false,
       "position": {
-        "height": 50,
-        "width": 444.8828125,
-        "x": 403,
-        "y": 202
+        "height": 24,
+        "width": 24,
+        "x": 15,
+        "y": 19.5
       },
-      "redirectUrl": null,
       "selectors": {
-        "css": "#APjFqb",
-        "xpath": "//*[@id=\"APjFqb\"]"
+        "css": "app-root.page-root > app-dashboard.ng-tns-c714168731-1.ng-star-inserted > app-header.ng-tns-c1735372728-2.ng-tns-c714168731-1 > header.main-header-bar.ng-tns-c1735372728-2 > div.brand-container.ng-tns-c1735372728-2:nth-of-type(1) > button.brand-logo.ng-tns-c1735372728-2 > app-icon-logo-black-24px.logo-icon.ng-tns-c1735372728-2 > svg",
+        "xpath": "/html/body/app-root[1]/app-dashboard[1]/app-header[1]/header[1]/div[1]/button[1]/app-icon-logo-black-24px[1]/svg[1]"
       },
-      "url": "https://www.google.com/"
+      "url": "https://pipeline.phenompeople.com/dashboard/recruiter-dashboard"
     },
     {
       "action": "click",
-      "elementText": "Google Search",
+      "elementText": "Overview",
+      "extraWaitMs": 1000,
       "id": 2,
-      "instruction": "Click here.",
-      "passThrough": true,
-      "position": {
-        "height": 36,
-        "width": 129.78125,
-        "x": 555.9921875,
-        "y": 282
-      },
-      "redirectUrl": "https://www.google.com/search",
-      "selectors": {
-        "css": "div.L3eUgb:nth-of-type(2) > div.o3j99.ikrT4e:nth-of-type(4) > form > div:nth-of-type(1) > div.A8SBwf:nth-of-type(1) > div.FPdoLc.lJ9FBc:nth-of-type(3) > center > input.gNO89b:nth-of-type(1)",
-        "xpath": "/html/body/div[2]/div[4]/form[1]/div[1]/div[1]/div[3]/center[1]/input[1]"
-      },
-      "url": "https://www.google.com/"
-    },
-    {
-      "action": "click",
-      "elementText": "The cat (Felis catus), also called domestic cat and house cat, is a small carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based ...Read more",
-      "id": 3,
-      "instruction": "This is a search result.",
+      "instruction": "This is your dashboard overview. It's not just pretty numbers. Click next.",
       "passThrough": false,
       "position": {
-        "height": 66,
-        "width": 540,
-        "x": 149,
-        "y": 240.5
+        "height": 24,
+        "width": 1045,
+        "x": 88,
+        "y": 208
       },
-      "redirectUrl": null,
       "selectors": {
-        "css": "div.main.n48JGd:nth-of-type(4) > div.e9EfHf > div.NbTBrb.YNk70c:nth-of-type(12) > div.s6JM6d.ufC5Cb:nth-of-type(1) > div.eqAnXb:nth-of-type(2) > div:nth-of-type(2) > div > div.dURPMd > div.MjjYud:nth-of-type(1) > div.A6K0A:nth-of-type(21) > div.wHYlTd.Ww4FFb > div.srKDX > div.kb0PBd.ieodic:nth-of-type(2) > div.VwiC3b.yXK7lf",
-        "xpath": "//*[@id=\"rso\"]/div[1]/div[21]/div[1]/div[1]/div[2]/div[1]"
+        "css": "#crmAutoEventsMyJobs",
+        "xpath": "//*[@id='crmAutoEventsMyJobs']"
       },
-      "url": "https://www.google.com/search?q=cat&btnK=Google+Search&sca_esv=f9768091ef2272cb&sxsrf=ANbL-n7KvBXJwo8yG969SPnqq73GHx9USA%3A1774645944896&source=hp&ei=uPLGacj8NIGvptQPmcyvuAE&iflsig=AFdpzrgAAAAAaccAyCXhyFo1hBCEbEdG6grnfXXqxo-_"
+      "url": "https://pipeline.phenompeople.com/dashboard/recruiter-dashboard"
     },
     {
       "action": "click",
-      "elementText": "Cat",
-      "id": 4,
-      "instruction": "Click to go to Cat page.",
+      "elementText": "My Open Jobs\n0",
+      "extraWaitMs": 1000,
+      "id": 3,
+      "instruction": "Click on My Open Jobs.",
       "passThrough": true,
       "position": {
-        "height": 31,
-        "width": 32.1640625,
-        "x": 149,
-        "y": 206.5
+        "height": 84,
+        "width": 245.25,
+        "x": 88,
+        "y": 248
       },
-      "redirectUrl": "https://en.wikipedia.org/wiki/Cat",
       "selectors": {
-        "css": "#_7vLGaZ6DBeybptQPmcqa2Qw_67",
-        "xpath": "//*[@id=\"_7vLGaZ6DBeybptQPmcqa2Qw_67\"]"
+        "css": "app-root.page-root > app-dashboard.ng-tns-c714168731-1.ng-star-inserted > div.page.ng-tns-c714168731-1 > section.main-body.ng-tns-c714168731-1 > section.main-page.ng-tns-c714168731-1 > app-recruiter-dashboard-page-wrapper.ng-star-inserted > app-federated-component > app-recruiter-dashboard-page.ng-star-inserted > div.recruiter-dashboard-parent > div.recruiter-dashboard-cntr:nth-of-type(1) > div.component-cntr:nth-of-type(2) > app-my-summary.ng-star-inserted > div.mysummary-cntr.row:nth-of-type(1) > div.cards-cntr.ng-star-inserted:nth-of-type(2) > div.grid-cntr.ng-star-inserted:nth-of-type(1) > div.info-cntr.cursor-pointer",
+        "xpath": "/html/body/app-root[1]/app-dashboard[1]/div[1]/section[1]/section[1]/app-recruiter-dashboard-page-wrapper[1]/app-federated-component[1]/app-recruiter-dashboard-page[1]/div[1]/div[1]/div[2]/app-my-summary[1]/div[1]/div[2]/div[1]/div[1]"
       },
-      "url": "https://www.google.com/search?q=cat&btnK=Google+Search&sca_esv=f9768091ef2272cb&sxsrf=ANbL-n7KvBXJwo8yG969SPnqq73GHx9USA%3A1774645944896&source=hp&ei=uPLGacj8NIGvptQPmcyvuAE&iflsig=AFdpzrgAAAAAaccAyCXhyFo1hBCEbEdG6grnfXXqxo-_"
+      "url": "https://pipeline.phenompeople.com/dashboard/recruiter-dashboard"
+    },
+    {
+      "action": "click",
+      "elementText": "Open Jobs",
+      "extraWaitMs": 2000,
+      "id": 4,
+      "instruction": "Click the Open Jobs tab.",
+      "passThrough": true,
+      "position": {
+        "height": 24,
+        "width": 81.25,
+        "x": 370.8046875,
+        "y": 171
+      },
+      "selectors": {
+        "css": "app-root.page-root > app-dashboard.ng-tns-c714168731-1.ng-star-inserted > div.page.ng-tns-c714168731-1 > section.main-body.ng-tns-c714168731-1 > section.main-page.ng-tns-c714168731-1 > app-jobs-page.ng-tns-c1271317937-7.ng-star-inserted > div.job-page.ng-tns-c1271317937-7 > div.row.facetedCntr:nth-of-type(6) > div.col-md-9.data-details > div.header-list-cntr.ng-tns-c1271317937-7:nth-of-type(1) > div.row.spotlight-nav:nth-of-type(1) > div.col-md-12.spotlight-list > app-spotlights-component.ng-tns-c3831390901-8.ng-tns-c1271317937-7 > div.spotlight-list-cntr.ng-tns-c3831390901-8 > div.display-flex.ng-tns-c3831390901-8 > ul.spotlight-list.ng-tns-c3831390901-8 > li.ng-tns-c3831390901-8.new-spotlight-single:nth-of-type(4) > a.ng-tns-c3831390901-8 > div.spotlight-heading.ng-tns-c3831390901-8:nth-of-type(1) > span.spotlight-name.ng-tns-c3831390901-8:nth-of-type(1)",
+        "xpath": "//*[@id='crm-ui-new-spotlight-single-2']/a[1]/div[1]/span[1]"
+      },
+      "url": "https://pipeline.phenompeople.com/dashboard/jobs"
+    },
+    {
+      "action": "click",
+      "elementText": "Open Jobs",
+      "extraWaitMs": 2000,
+      "id": 5,
+      "instruction": "These are all open jobs within your organization.",
+      "passThrough": false,
+      "position": {
+        "height": 24,
+        "width": 81.9921875,
+        "x": 369.3515625,
+        "y": 171
+      },
+      "selectors": {
+        "css": "app-root.page-root > app-dashboard.ng-tns-c714168731-1.ng-star-inserted > div.page.ng-tns-c714168731-1 > section.main-body.ng-tns-c714168731-1 > section.main-page.ng-tns-c714168731-1 > app-jobs-page.ng-tns-c1271317937-7.ng-star-inserted > div.job-page.ng-tns-c1271317937-7 > div.row.facetedCntr:nth-of-type(6) > div.col-md-9.data-details > div.header-list-cntr.ng-tns-c1271317937-7:nth-of-type(1) > div.row.spotlight-nav:nth-of-type(1) > div.col-md-12.spotlight-list > app-spotlights-component.ng-tns-c3831390901-8.ng-tns-c1271317937-7 > div.spotlight-list-cntr.ng-tns-c3831390901-8 > div.display-flex.ng-tns-c3831390901-8 > ul.spotlight-list.ng-tns-c3831390901-8 > li.ng-tns-c3831390901-8.new-spotlight-single:nth-of-type(4) > a.ng-tns-c3831390901-8 > div.spotlight-heading.ng-tns-c3831390901-8:nth-of-type(1) > span.spotlight-name.ng-tns-c3831390901-8:nth-of-type(1)",
+        "xpath": "//*[@id='crm-ui-new-spotlight-single-2']/a[1]/div[1]/span[1]"
+      },
+      "url": "https://pipeline.phenompeople.com/dashboard/jobs"
+    },
+    {
+      "action": "click",
+      "elementText": "",
+      "extraWaitMs": 1000,
+      "id": 6,
+      "instruction": "Click on this person icon.",
+      "passThrough": true,
+      "position": {
+        "height": 16,
+        "width": 16,
+        "x": 24,
+        "y": 235
+      },
+      "selectors": {
+        "css": "app-root.page-root > app-dashboard.ng-tns-c714168731-1.ng-star-inserted > div.page.ng-tns-c714168731-1 > section.main-body.ng-tns-c714168731-1 > div.left-navigation-conatiner.ng-tns-c714168731-1 > ul.left-nav.ng-tns-c714168731-1 > li.nav-list.ng-tns-c714168731-1:nth-of-type(4) > a.primary-nav.candidates-nav > app-icon-person-outline-24px.dash-icon.ng-tns-c714168731-1 > svg > path",
+        "xpath": "//*[@id='crmAutoDashboardNavCandidates']/app-icon-person-outline-24px[1]/svg[1]/path[1]"
+      },
+      "url": "https://pipeline.phenompeople.com/dashboard/jobs"
+    },
+    {
+      "action": "click",
+      "elementText": "Candidates",
+      "extraWaitMs": 2000,
+      "id": 7,
+      "instruction": "This is the Candidates page. All candidates in the CRM live here.",
+      "passThrough": false,
+      "position": {
+        "height": 40,
+        "width": 534.796875,
+        "x": 96,
+        "y": 96
+      },
+      "selectors": {
+        "css": "#crm-ui-page-name",
+        "xpath": "//*[@id='crm-ui-page-name']"
+      },
+      "url": "https://pipeline.phenompeople.com/dashboard/candidates"
+    },
+    {
+      "action": "click",
+      "elementText": "",
+      "extraWaitMs": 1000,
+      "id": 8,
+      "instruction": "That concludes this short example tutorial of Phenom. Thank you and happy recruiting!",
+      "passThrough": false,
+      "position": {
+        "height": 24,
+        "width": 24,
+        "x": 15,
+        "y": 19.5
+      },
+      "selectors": {
+        "css": "app-root.page-root > app-dashboard.ng-tns-c714168731-1.ng-star-inserted > app-header.ng-tns-c1735372728-2.ng-tns-c714168731-1 > header.main-header-bar.ng-tns-c1735372728-2 > div.brand-container.ng-tns-c1735372728-2:nth-of-type(1) > button.brand-logo.ng-tns-c1735372728-2 > app-icon-logo-black-24px.logo-icon.ng-tns-c1735372728-2 > svg",
+        "xpath": "/html/body/app-root[1]/app-dashboard[1]/app-header[1]/header[1]/div[1]/button[1]/app-icon-logo-black-24px[1]/svg[1]"
+      },
+      "url": "https://pipeline.phenompeople.com/dashboard/candidates"
     }
   ]
 }
