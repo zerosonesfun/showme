@@ -1,6 +1,9 @@
 {
   "tutorials": [
-    { "name": "Example Tutorial", "file": "example-tutorial.json" },
-    { "name": "Example Tutorial with Quiz", "file": "example-tutorial-with-quiz.json" }
+    { "name": "Example Tutorial", "file": "Examples/example-tutorial.json" },
+    {
+      "name": "Example Tutorial with Quiz",
+      "file": "Examples/example-tutorial-with-quiz.json"
+    }
   ]
 }
